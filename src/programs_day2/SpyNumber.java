@@ -15,6 +15,8 @@ public class SpyNumber {
 
         if(sum==product)
             System.out.println(num1+" is a spy number ..");
+        else
+            System.out.println(num1+" is not a spy number ..");
 
     }
 }
