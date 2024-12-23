@@ -2,10 +2,9 @@ package arrays;
 
 import java.util.Scanner;
 
-public class Second {
+public class Third {
 
     public static void main(String[] args) {
-
         // Assigning values in array using loops
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of the array: ");
@@ -13,16 +12,17 @@ public class Second {
 
         int[] array = new int[size];
 
-        // Assign
-        for (int i = 0; i < size; i++) {
-            array[i] = i + 1;
+        System.out.println("Enter the array elements: ");
+        for (int i = 0; i < array.length; i++) {
+            array[i] = sc.nextInt();
         }
 
-        System.out.println("The array is: ");
-        // Print
+        // Print the values
+        System.out.println("The array values after your inouts is: ");
         for (int x : array) {
             System.out.print(x + " ");
         }
 
+        sc.close();
     }
 }
