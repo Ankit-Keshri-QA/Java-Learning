@@ -1,6 +1,7 @@
 package arrays;
 
 import java.util.Arrays;
+import java.util.List;
 
 public class ArraysClass_Complete {
     public static void main(String[] args) {
@@ -47,5 +48,9 @@ public class ArraysClass_Complete {
         System.out.println("Filled Array: " + Arrays.toString(numbers));
 
         //7. Arrays.asList(arr)
+        String[] names = {"Ankit", "Saurabh", "Vaibhav"};
+        List<String> arrayToList = Arrays.asList(names);
+        System.out.println("The List from array is: " + arrayToList);
+
     }
 }

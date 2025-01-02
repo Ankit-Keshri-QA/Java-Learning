@@ -13,6 +13,8 @@ public class First {
         int[] numb;
         numb = new int[5];
 
+        int[] numberss = new int[] {1,2,3,5,6};
+
         String str[] = new String[3];
         str[0] = "Ankit";
         str[1] = "Vaibhav";
