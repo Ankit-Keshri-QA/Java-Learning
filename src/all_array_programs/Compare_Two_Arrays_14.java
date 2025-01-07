@@ -5,7 +5,7 @@ public class Compare_Two_Arrays_14 {
         int[] array1 = {1, 2, 3, 4, 5};
         int[] array2 = {1, 2, 3, 4,58};
         int key = 0;
-        
+
         if (array1.length == array2.length) {
             for (int item : array1) {
                 for (int item1 : array2) {
